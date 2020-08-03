@@ -61,6 +61,9 @@ def main():
 
 
 def get_two_classes(x, y):
+    """
+    data preprocessing
+    """
     # cats has y==3, while dogs y==5 acording to cifar10 dataset.
     indices_0, _ = np.where(y == 3.)
     indices_1, _ = np.where(y == 5.)
