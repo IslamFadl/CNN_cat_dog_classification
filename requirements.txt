@@ -1,1 +1,1 @@
-TensorFlow==2.1.0
+TensorFlow==2.5.3
